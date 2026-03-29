@@ -75,5 +75,3 @@ g.remove_nodes_from(list(nx.isolates(g)))
 # Export the graph to GraphML format
 nx.write_graphml(g, "authors.graphml")
 
-print(df_subset.shape)
-
