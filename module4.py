@@ -34,7 +34,7 @@ countries['cluster'] = cluster_model.predict(X_scaled)
 
 # Get an idea of what the clusters look like
 print(countries['cluster'].value_counts())
-print(countries[['country', 'cluster']].sort_values('cluster')[160:])
+print(countries[['country', 'cluster']].sort_values('cluster')[0:20])
 
 # Visualize the clusters
 sns.scatterplot(data=countries, x='Gdpp', y='total_fer', hue='cluster')
