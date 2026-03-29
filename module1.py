@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load the dataset
+# Load the dataset in
 dogs = pd.read_csv("c:\\Users\\lacie\\Lacie Files\\INST 414\\dogs_ranking.csv")
 
 # Select relevant columns and rename them
